@@ -1,0 +1,98 @@
+.App{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://w0.peakpx.com/wallpaper/299/712/HD-wallpaper-the-mandalorian-cine-disney-jedi-movies-series-star-wars-tv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.App h1{
+    color: white;
+}
+
+.App h1{
+    margin-top: 3rem;
+}
+
+.card_movie{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 1rem;
+}
+
+.card{
+    margin: 2rem 3rem;
+}
+
+.formulario label{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.formulario input{
+    margin-bottom: 1rem;
+    height: 1.5rem;
+    width: 20rem;
+    margin-left: 1rem;
+    border-radius: 15px;
+}
+
+
+.class__body{
+    border: 2px solid #000;
+    margin: 1rem 1rem;
+    height: 20rem;
+    border-radius: 20px;
+    box-shadow: 10px 5px 10px rgb(112, 112, 112);
+    background-color: white;
+}
+
+.btn{
+    width: 6rem;
+    height: 3rem;
+    margin: 1rem 0.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.delete{
+    background-color: rgb(122, 0, 0);
+    color: white;
+}
+
+.edit{
+    background-color: rgb(168, 123, 0);
+    color: white;
+}
+
+.btn_send{
+    background-color: rgb(122, 0, 0);
+    color: white;
+    padding: 1rem;
+    width: 7rem;
+    border: none;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card h3{
+    font-size: 1.5rem;
+}
+
+.card p{
+    font-size: 1.2rem;
+}
