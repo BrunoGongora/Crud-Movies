@@ -1,28 +1,28 @@
-.App{
+.App {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     text-align: center;
-    
+
 }
 
-body{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://w0.peakpx.com/wallpaper/299/712/HD-wallpaper-the-mandalorian-cine-disney-jedi-movies-series-star-wars-tv.jpg);
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://w0.peakpx.com/wallpaper/299/712/HD-wallpaper-the-mandalorian-cine-disney-jedi-movies-series-star-wars-tv.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 
 }
 
-.App h1{
+.App h1 {
     color: white;
 }
 
-.App h1{
+.App h1 {
     margin-top: 3rem;
 }
 
-.card_movie{
+.card_movie {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -30,17 +30,17 @@ body{
     padding: 0rem 1rem;
 }
 
-.card{
+.card {
     margin: 2rem 3rem;
 }
 
-.formulario label{
+.formulario label {
     margin-bottom: 1rem;
     font-size: 1.5rem;
     color: white;
 }
 
-.formulario input{
+.formulario input {
     margin-bottom: 1rem;
     height: 1.5rem;
     width: 20rem;
@@ -49,7 +49,7 @@ body{
 }
 
 
-.class__body{
+.class__body {
     border: 2px solid #000;
     margin: 1rem 1rem;
     height: 20rem;
@@ -58,27 +58,27 @@ body{
     background-color: white;
 }
 
-.btn{
+.btn {
     width: 6rem;
     height: 3rem;
     margin: 1rem 0.5rem;
     border-radius: 10px;
     cursor: pointer;
     border: none;
-    
+
 }
 
-.delete{
+.delete {
     background-color: rgb(122, 0, 0);
     color: white;
 }
 
-.edit{
+.edit {
     background-color: rgb(168, 123, 0);
     color: white;
 }
 
-.btn_send{
+.btn_send {
     background-color: rgb(122, 0, 0);
     color: white;
     padding: 1rem;
@@ -89,10 +89,39 @@ body{
     margin-bottom: 1rem;
 }
 
-.card h3{
+.card h3 {
     font-size: 1.5rem;
 }
 
-.card p{
+.card p {
     font-size: 1.2rem;
+}
+
+@media screen and (max-width:530px) {
+    body {
+        background-image: none;
+    }
+
+    .formulario label {
+        color: black;
+        margin-bottom: 1rem;
+    }
+
+    .formulario input {
+        margin-top: 1rem;
+    }
+
+    .App h1 {
+    color: rgb(122, 0, 0) ;
+    margin-bottom:3rem;
+    margin-top: 4rem;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+}
+
+.card p {
+    font-size: 0.9rem;
+}
 }
